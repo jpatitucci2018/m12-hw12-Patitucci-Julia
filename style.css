@@ -78,7 +78,7 @@
   
   .img_card {
     width: 300px;
-    height: 300px;
+    height: 350px;
     box-shadow: var(--gray) 4px 4px 10px 2px;
     border-radius: 3px;
     display: flex;
