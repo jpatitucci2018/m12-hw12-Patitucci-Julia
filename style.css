@@ -36,14 +36,14 @@
   }
   
   .nav__container {
-    box-shadow: var(--gray) 4px 4px 10px 2px;
+    box-shadow: var(--gray) 4px 4px 4px 2px;
     display: grid;
-    row-gap: 24px;
+    row-gap: 5px;
     grid-template-columns: 1fr;
     min-width: 200px;
     justify-items: center;
-    padding: 12px 0 24px;
-    grid-area: nav;
+    padding: 5px 5px 5px 5px;
+    margin: 10px;
   }
   
   .nav__link, .nav__link--active {
@@ -69,7 +69,7 @@
 
   .img_card__container {
     grid-column: content;
-    display: grid;
+    display: grid | inline-grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-auto-rows: 350px;
     gap: 16px;
